@@ -1,3 +1,5 @@
+cbowREADME.md
+
 # Test Token Contract
 
 Contract and deploy scripts for the test token.
