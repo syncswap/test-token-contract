@@ -171,7 +171,7 @@ contract ERC20Standard is IERC20, IERC20Metadata {
      * Requirements:
      *
      * - `spender` cannot be the zero address.
-     * - `spender` must have allowance for the caller of at least
+     * - `spender` must have an allowance for the caller of at least
      * `subtractedValue`.
      */
     function decreaseAllowance(address spender, uint256 subtractedValue) public virtual returns (bool) {
